@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="validator.xsd">
+    <Apartment>
+        <numberOfRooms>4</numberOfRooms>
+        <address>Gagarina 5</address>
+        <floor>6</floor>
+        <cost>34000</cost>
+    </Apartment>
+    <Apartment>
+        <numberOfRooms>3</numberOfRooms>
+        <address>Filatova 25</address>
+        <floor>3</floor>
+        <cost>25000</cost>
+    </Apartment>
+    <Apartment>
+        <numberOfRooms>2</numberOfRooms>
+        <address>Artema 15</address>
+        <floor>8</floor>
+        <cost>20000</cost>
+    </Apartment>
+</root>

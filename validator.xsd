@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="Apartment">
+        <xsd:complexType >
+            <xsd:sequence>
+                <xsd:element name="numberOfRooms" type="xsd:integer"/>
+                <xsd:element name="address" type="xsd:string"/>
+                <xsd:element name="floor" type="xsd:integer"/>
+                <xsd:element name="cost" type="xsd:integer"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
+
