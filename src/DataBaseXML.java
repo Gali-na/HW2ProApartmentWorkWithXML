@@ -42,8 +42,12 @@ public class DataBaseXML {
                     }
                 }
             }
-        } catch (Exception e) {
-            return null;
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
         }
         return catalog;
     }
@@ -82,7 +86,12 @@ public class DataBaseXML {
                     }
                 }
             }
-        } catch (Exception e) {
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
         }
         updateXML(document);
     }
@@ -102,8 +111,6 @@ public class DataBaseXML {
             transformer.transform(source, consoleResult);
         } catch (TransformerException transformerException) {
             transformerException.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
     public static void delApartment(File file, String address) {
