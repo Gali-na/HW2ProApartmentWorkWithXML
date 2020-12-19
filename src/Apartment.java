@@ -6,7 +6,6 @@ public class Apartment {
     private Integer floor;
     private Integer cost;
 
-
     public Apartment() {
 
     }
